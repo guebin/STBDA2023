@@ -2,18 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://guebin.github.io/STBDA2023/index.html</loc>
-    <lastmod>2023-09-12T09:34:00.772Z</lastmod>
+    <lastmod>2023-09-12T12:39:01.707Z</lastmod>
   </url>
   <url>
-    <loc>https://guebin.github.io/STBDA2023/posts/01wk-002.html</loc>
-    <lastmod>2023-09-12T09:34:00.780Z</lastmod>
-  </url>
-  <url>
-    <loc>https://guebin.github.io/STBDA2023/posts/01wk-001.html</loc>
-    <lastmod>2023-09-12T09:34:00.780Z</lastmod>
+    <loc>https://guebin.github.io/STBDA2023/posts/02wk-003-타이타닉, 첫 제출.html</loc>
+    <lastmod>2023-09-12T12:39:01.715Z</lastmod>
   </url>
   <url>
     <loc>https://guebin.github.io/STBDA2023/posts/A1.html</loc>
-    <lastmod>2023-09-12T09:34:00.788Z</lastmod>
+    <lastmod>2023-09-12T12:39:01.723Z</lastmod>
+  </url>
+  <url>
+    <loc>https://guebin.github.io/STBDA2023/posts/02wk-004-타이타닉, Alexis Cook의 코드.html</loc>
+    <lastmod>2023-09-12T12:39:01.715Z</lastmod>
+  </url>
+  <url>
+    <loc>https://guebin.github.io/STBDA2023/posts/02wk-006-타이타닉, Autogluon (Fsize).html</loc>
+    <lastmod>2023-09-12T12:39:01.715Z</lastmod>
+  </url>
+  <url>
+    <loc>https://guebin.github.io/STBDA2023/posts/01wk-001-캐글소개.html</loc>
+    <lastmod>2023-09-12T12:39:01.715Z</lastmod>
+  </url>
+  <url>
+    <loc>https://guebin.github.io/STBDA2023/posts/02wk-007-타이타닉, Autogluon (Fsize,Drop).html</loc>
+    <lastmod>2023-09-12T12:39:01.715Z</lastmod>
+  </url>
+  <url>
+    <loc>https://guebin.github.io/STBDA2023/posts/02wk-005-타이타닉, Autogluon.html</loc>
+    <lastmod>2023-09-12T12:39:01.715Z</lastmod>
+  </url>
+  <url>
+    <loc>https://guebin.github.io/STBDA2023/posts/02wk-008-타이타닉, Autogluon (best_quality).html</loc>
+    <lastmod>2023-09-12T12:39:01.715Z</lastmod>
+  </url>
+  <url>
+    <loc>https://guebin.github.io/STBDA2023/posts/01wk-002-타이타닉, 데이터의 이해.html</loc>
+    <lastmod>2023-09-12T12:39:01.715Z</lastmod>
   </url>
 </urlset>
