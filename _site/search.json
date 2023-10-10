@@ -37,42 +37,42 @@
   {
     "objectID": "posts/A2.html",
     "href": "posts/A2.html",
-    "title": "0wk-A2: 코드스페이스, 리눅스명령어, kaggle.json",
+    "title": "A2: 코드스페이스, 리눅스명령어, kaggle.json",
     "section": "",
     "text": "1. 코드스페이스\n- 장점:\n\n슈퍼장점: 자동으로 깃헙연결 되어있음 (요즘 깃헙쓰기 짜증나서 이게 장점임)\n로칼컴퓨터대비 장점: 내 컴퓨터 깨끗하게 쓸 수 있음 + 내 맘대로 무한 리눅스서버 사용가능\n코랩/kaggle 대비 장점: 한번 정리된 셋팅이 영구적으로 적용됨. (autogluon 맨날 안깔아도 된다)\n\n- 단점:\n\n컴터가 별로임, 사용시간 제한있음 (월 100시간?)\n단점을 극복하려면 결재해야함\n\n- 초기설정: 복붙설정하기, 주피터 extension 설치\n\n\n2. kaggle.json\n\n\n3. 간단한 리눅스 명령어\n- 이동: ls, cd\n- 폴더생성 및 삭제: mkdir, rm -rf\n- 복붙: cp/mv\n- zip압출풀기: unzip\n\n리눅스에 익숙해지면 코랩, 캐글등을 쉽게 사용할 수 있다.\n\n\n코랩 혹은 캐글에서 사용하지 않더라도, 코랩 혹은 캐글에서 사용하는 코드를 쉽게 해석할 수 있다.\n\n\n\n4. 타이타닉 데이터 불러오기"
   },
   {
     "objectID": "posts/A1.html",
     "href": "posts/A1.html",
-    "title": "0wk-A1: Quarto Blog 만들기",
+    "title": "A1: Quarto Blog 만들기",
     "section": "",
     "text": "- 윈도우 컴퓨터인 경우 새로운 계정을 만들어 준다.\n\n한글계정명일 경우는 필수\n영어계정이더라도 계정을 분리하는게 관리에 유리\n\n- 최종적으로는\n\ngithub 로그인 + repository 생성완료\nanaconda 설치완료\ngit 설치완료\nquarto 설치완료\n\n이어야 한다.\n\n\n\ngithub 로그인\nrepository 생성 (저는 asdf로 만들었어요)\n\n\n주의: repository 만들때 readme.md 파일을 생성 할 것. 그래야 이후의 작업이 편리.\n\n\n\n\n\n아나콘다 다운로드: https://www.anaconda.com/download\n아나콘다 설치\n그림1처럼 terminal을 열었을 경우 (base)로 표시되는지 확인\n그림2처럼 conda env list등의 명령어가 잘 동작하는지 확인\n\n\n그림1그림2\n\n\n\n\n\n그림1: 정상적으로 설치된 경우 (base)가 보임\n\n\n\n\n\n\n\n그림2: 정상적으로 설치된 경우 cond env list 등의 명령이 잘 동작함. 현재환경은 *로 표시됨\n\n\n\n\n\n\n\n\n\ngit 다운로드: https://git-scm.com/downloads\n설치\nterminal에서 git을 입력하여 정상적으로 설치되었는지 확인. 그림3 참고.\n\n\n본인이 편리한 경우 github desktop 혹은 sourcetree 등에서 작업해도 무방함. 하지만 수업에서는 다루지 않음.\n\n\n\n\n그림3: git이 정상적으로 설치된 경우 출력예시\n\n\n\n\n\n\nquarto 다운로드: https://quarto.org/docs/download/ 에서 pre-release 버전을 다운로드 할 것 (기능이 좀 더 많음)\n설치\n터미널에서 quarto help를 입력하여 정상적으로 설치되었는지 확인. 그림4 참고.\n\n\n\n\n그림4: quarto가 정상적으로 설치된 경우 출력예시"
   },
   {
     "objectID": "posts/A1.html#a.-github",
     "href": "posts/A1.html#a.-github",
-    "title": "0wk-A1: Quarto Blog 만들기",
+    "title": "A1: Quarto Blog 만들기",
     "section": "",
     "text": "github 로그인\nrepository 생성 (저는 asdf로 만들었어요)\n\n\n주의: repository 만들때 readme.md 파일을 생성 할 것. 그래야 이후의 작업이 편리."
   },
   {
     "objectID": "posts/A1.html#b.-anaconda",
     "href": "posts/A1.html#b.-anaconda",
-    "title": "0wk-A1: Quarto Blog 만들기",
+    "title": "A1: Quarto Blog 만들기",
     "section": "",
     "text": "아나콘다 다운로드: https://www.anaconda.com/download\n아나콘다 설치\n그림1처럼 terminal을 열었을 경우 (base)로 표시되는지 확인\n그림2처럼 conda env list등의 명령어가 잘 동작하는지 확인\n\n\n그림1그림2\n\n\n\n\n\n그림1: 정상적으로 설치된 경우 (base)가 보임\n\n\n\n\n\n\n\n그림2: 정상적으로 설치된 경우 cond env list 등의 명령이 잘 동작함. 현재환경은 *로 표시됨"
   },
   {
     "objectID": "posts/A1.html#c.-git",
     "href": "posts/A1.html#c.-git",
-    "title": "0wk-A1: Quarto Blog 만들기",
+    "title": "A1: Quarto Blog 만들기",
     "section": "",
     "text": "git 다운로드: https://git-scm.com/downloads\n설치\nterminal에서 git을 입력하여 정상적으로 설치되었는지 확인. 그림3 참고.\n\n\n본인이 편리한 경우 github desktop 혹은 sourcetree 등에서 작업해도 무방함. 하지만 수업에서는 다루지 않음.\n\n\n\n\n그림3: git이 정상적으로 설치된 경우 출력예시"
   },
   {
     "objectID": "posts/A1.html#d.-quarto",
     "href": "posts/A1.html#d.-quarto",
-    "title": "0wk-A1: Quarto Blog 만들기",
+    "title": "A1: Quarto Blog 만들기",
     "section": "",
     "text": "quarto 다운로드: https://quarto.org/docs/download/ 에서 pre-release 버전을 다운로드 할 것 (기능이 좀 더 많음)\n설치\n터미널에서 quarto help를 입력하여 정상적으로 설치되었는지 확인. 그림4 참고.\n\n\n\n\n그림4: quarto가 정상적으로 설치된 경우 출력예시"
   },
