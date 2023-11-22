@@ -4,7 +4,6 @@ project:
 website:
   title: "STBDA2023"
   navbar:
-  navbar:
     left: 
       - offline.qmd  
     right:
