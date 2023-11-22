@@ -1,0 +1,19 @@
+---
+title: "**대면수업**"
+listing:
+  contents: /offline
+  sort: "date desc"
+  type: table
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  page-size: 9999
+page-layout: full
+title-block-banner: false
+---
+
+**공지사항** 
+
+- 대면수업은 학점과 무관한 수업입니다. (대면수업에 참여하지 않아도 학점에 불이익이 없습니다) 
+
+**강의노트** 
