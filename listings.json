@@ -2,9 +2,6 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/A3.html",
-      "/posts/A2.html",
-      "/posts/A1.html",
       "/posts/12wk-046.html",
       "/posts/12wk-045.html",
       "/posts/12wk-044.html",
@@ -53,6 +50,14 @@
       "/posts/02wk-003.html",
       "/posts/01wk-002.html",
       "/posts/01wk-001.html"
+    ]
+  },
+  {
+    "listing": "/offline.html",
+    "items": [
+      "/offline/A3.html",
+      "/offline/A2.html",
+      "/offline/A1.html"
     ]
   }
 ]
