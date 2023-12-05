@@ -1481,7 +1481,7 @@
     "href": "offline/A5.html",
     "title": "A5: 원격컴퓨터에서 개발환경 셋팅하기 (2)",
     "section": "",
-    "text": "- 아래를 이용하여 가상환경생성, 가상환경활성화, 가상환경에R설치,R실행\nconda create -n r \nconda activate r \nconda install -c conda-forge r-essentials \nR\n- R이 실행되면 아래를 입력\nIRkernel::installspec()\nq() # 이후에 n을 누르고 빠져나간다.\n- 주피터에서 R이 실행되는지 확인한다."
+    "text": "- 아래를 이용하여 설치\napt-get install unzip \napt-get install curl \napt-get install gdebi-core\n- apt install vs apt-get install: 예전에는 apt-get이었음. 그래서 오래된 앱은 apt-get만 되는것도 있다고함. (본적은없음)\n* apt install / pip install / conda install 차이\n\n설치되는 경로가 다름 (그래서 지우는 법도 다름)\napt install 로 설치되는건 우분투 자체의 프로그램\npip install 로 설치되는건 파이썬 모듈\n우분투자체의 프로그램: Python, CUDA, Anaconda, Quarto, Git, …\nPython의 모듈: Numpy, Pandas, …\nconda install: 모든 종류의 프로그램을 다 설치할 수 있음.. (apt, pip로만 설치가능한 것이 콘다로는 싹 설치가능, 심지어 tidyverse같은 R패키지도 설치가능)"
   },
   {
     "objectID": "offline/A5.html#a.-quarto설치",
