@@ -200,7 +200,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div id="7c1e144d-9488-45db-aea5-bb5bf7f4693e" class="cell" data-tags="[]" data-execution_count="4">
+<div id="7c1e144d-9488-45db-aea5-bb5bf7f4693e" class="cell" data-tags="[]" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
@@ -214,10 +214,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ol>
 <section id="의사결정나무의-수동구현-70점" class="level1">
 <h1>1. 의사결정나무의 수동구현 (70점)</h1>
-<div id="c487030d-5f91-4ff0-92d5-791961eaf3fd" class="cell" data-execution_count="9">
+<div id="c487030d-5f91-4ff0-92d5-791961eaf3fd" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df_train <span class="op">=</span> pd.read_csv(<span class="st">'https://raw.githubusercontent.com/guebin/MP2023/master/posts/height_train.csv'</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df_train</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="9">
+<div class="cell-output cell-output-display" data-execution_count="2">
 <div>
 
 
@@ -306,10 +306,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p><code>(1)</code> <code>df_train</code>에서 “sex”,“weight”를 설명변수로 “height”을 반응변수로 설정하라. 결측치가 있을 경우 결측값에 일괄적으로 -99로 채워넣어라.</p>
 <p><strong>힌트</strong>: 결측치를 처리하기 위해 아래의 코드를 관찰하라.</p>
-<div id="c8592e77-fc5d-443b-9318-2f2ca9f1951b" class="cell" data-tags="[]" data-execution_count="419">
+<div id="c8592e77-fc5d-443b-9318-2f2ca9f1951b" class="cell" data-tags="[]" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df_toy <span class="op">=</span> pd.DataFrame({<span class="st">'X'</span>:[<span class="dv">1</span>,<span class="dv">2</span>,np.nan,np.nan,<span class="dv">5</span>],<span class="st">'y'</span>:[<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">1</span>,<span class="dv">2</span>]})</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df_toy</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="419">
+<div class="cell-output cell-output-display" data-execution_count="3">
 <div>
 
 
@@ -353,9 +353,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div id="3dcce341-83e6-4ff4-9a2c-deeefe99a016" class="cell" data-tags="[]" data-execution_count="420">
+<div id="3dcce341-83e6-4ff4-9a2c-deeefe99a016" class="cell" data-tags="[]" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df_toy.fillna(<span class="op">-</span><span class="dv">99</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="420">
+<div class="cell-output cell-output-display" data-execution_count="4">
 <div>
 
 
